@@ -1,13 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/src/node.cpp.obj"
-  "CMakeFiles/test.dir/src/node.cpp.obj.d"
-  "CMakeFiles/test.dir/src/stack.cpp.obj"
-  "CMakeFiles/test.dir/src/stack.cpp.obj.d"
-  "CMakeFiles/test.dir/test_parenthesis.cpp.obj"
-  "CMakeFiles/test.dir/test_parenthesis.cpp.obj.d"
-  "libtest.dll.a"
-  "test.exe"
-  "test.exe.manifest"
+  "CMakeFiles/test.dir/src/node.cpp.o"
+  "CMakeFiles/test.dir/src/node.cpp.o.d"
+  "CMakeFiles/test.dir/src/stack.cpp.o"
+  "CMakeFiles/test.dir/src/stack.cpp.o.d"
+  "CMakeFiles/test.dir/test_parenthesis.cpp.o"
+  "CMakeFiles/test.dir/test_parenthesis.cpp.o.d"
+  "test"
   "test.pdb"
 )
 

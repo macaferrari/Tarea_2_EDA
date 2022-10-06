@@ -2,8 +2,11 @@
 #include "adts/stack.hpp"
 #include <iostream>
 #include <cstring>
+#include <fstream>
 
 using namespace eda;
+using namespace std;
+
 //hola catita bonita :D
 bool validateParenthesis(const std::string &input, int* pos){
 	bool error = false;
@@ -31,7 +34,7 @@ bool validateParenthesis(const std::string &input, int* pos){
 }
 
 
-int main(int nargs, char** vargs){
+/*int main(int nargs, char** vargs){
 	std::string input;
 	int pos=0;
 	std::cout<<"Ingresa expresión: ";
@@ -44,6 +47,41 @@ int main(int nargs, char** vargs){
 		std::cout<< " Expresión Inválida" << std::endl;
 		std::cout<< "Pos error:  " << pos	<< std::endl;
 	}
+
+	return 0;
+}
+*/
+
+int main(int nargs, char** vargs){
+	string nombreArchivo="estructura.txt";
+	ifstream archivo(nombreArchivo.c_str());
+	string linea;
+	string name_tags[500];
+	string tag;
+	while(getline(archivo,linea)){
+		bool add=false;
+		for(int i=0;i<linea.length();i++){
+			
+			if(linea[i]=='>'){
+				add= false;
+				cout<<"tag: "<<tag<<endl;
+				tag="";
+			}
+			if(add){
+				tag+=linea[i];
+			}
+			
+			if(linea[i]=='<'){
+				add= true;
+			}
+			
+
+		}
+	}
+
+	
+	
+
 
 	return 0;
 }

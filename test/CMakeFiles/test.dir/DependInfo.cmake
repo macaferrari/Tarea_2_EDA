@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/macaf/Desktop/Tarea 2 EDA/Tarea_2_EDA/src/node.cpp" "CMakeFiles/test.dir/src/node.cpp.obj" "gcc" "CMakeFiles/test.dir/src/node.cpp.obj.d"
-  "C:/Users/macaf/Desktop/Tarea 2 EDA/Tarea_2_EDA/src/stack.cpp" "CMakeFiles/test.dir/src/stack.cpp.obj" "gcc" "CMakeFiles/test.dir/src/stack.cpp.obj.d"
-  "C:/Users/macaf/Desktop/Tarea 2 EDA/Tarea_2_EDA/test/test_parenthesis.cpp" "CMakeFiles/test.dir/test_parenthesis.cpp.obj" "gcc" "CMakeFiles/test.dir/test_parenthesis.cpp.obj.d"
+  "/Users/catasotopavez/Desktop/Tarea_2_EDA/src/node.cpp" "CMakeFiles/test.dir/src/node.cpp.o" "gcc" "CMakeFiles/test.dir/src/node.cpp.o.d"
+  "/Users/catasotopavez/Desktop/Tarea_2_EDA/src/stack.cpp" "CMakeFiles/test.dir/src/stack.cpp.o" "gcc" "CMakeFiles/test.dir/src/stack.cpp.o.d"
+  "/Users/catasotopavez/Desktop/Tarea_2_EDA/test/test_parenthesis.cpp" "CMakeFiles/test.dir/test_parenthesis.cpp.o" "gcc" "CMakeFiles/test.dir/test_parenthesis.cpp.o.d"
   )
 
 # Targets to which this target links.
