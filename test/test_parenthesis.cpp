@@ -4,7 +4,7 @@
 #include <cstring>
 
 using namespace eda;
-
+//hola catita bonita :D
 bool validateParenthesis(const std::string &input, int* pos){
 	bool error = false;
 	int i = 0;
