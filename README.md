@@ -2,7 +2,7 @@
 # Data Structures and Algorithms in C++
 
 Compiling with CMake 
-- cd [sort | misc]
+- cd test
 - mkdir build
 - cd build
 - cmake ..
